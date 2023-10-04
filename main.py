@@ -12,9 +12,11 @@ while pw != u_pwd:
         guess_pwd = PWD[randint(0, len(PWD) - 1)]
         pw = str(guess_pwd) + str(pw)
         os.system("cls")
+        if pw == u_pwd:
+            break
         print(pw)
         print("Cracking Password .... Please Wait !!!")
 
-print(f"\nYour password is : {pw}")
+print(f"\nYour password is : {pw} \n")
 
 # ! LET'S CRACK IT

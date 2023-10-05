@@ -2,10 +2,11 @@ import os
 from random import *
 import time
 
-u_pwd = input("Enter a Password : ")
+u_pwd = input("Enter a Password (Use only lowercase letters and numbers) : ")
 PWD = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q',
        'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 # If You want add special character in the above list
+# If You want to add UpperCase letters also you can add it to the list
 
 pw = ""
 start_time = time.time()
